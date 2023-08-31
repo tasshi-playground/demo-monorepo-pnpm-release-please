@@ -5,5 +5,12 @@
   "repository": "git@github.com:hung-cybo/demo-monorepo-release-please.git",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "prettier --check '**/*.{json,md,yml,yaml}'",
+    "fix": "pnpm lint --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.1"
+  },
   "packageManager": "pnpm@8.6.12"
 }
