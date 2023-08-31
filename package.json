@@ -1,0 +1,9 @@
+{
+  "name": "@hung-cybo/demo-monorepo-release-please",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hung-cybo/demo-monorepo-release-please.git",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "pnpm@8.6.12"
+}

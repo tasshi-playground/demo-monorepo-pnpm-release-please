@@ -1,0 +1,10 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "package-b": "workspace:*",
+    "package-c": "workspace:*"
+  }
+}
