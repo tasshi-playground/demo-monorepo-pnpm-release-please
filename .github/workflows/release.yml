@@ -6,6 +6,9 @@ on:
 
 jobs:
   release:
+    name: Create release
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -13,3 +16,19 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
           command: manifest
+
+  publish:
+    name: Publish to npm (fake)
+    runs-on: ubuntu-latest
+    needs: release
+    if: ${{ needs.release.outputs.releases_created }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "pnpm"
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
