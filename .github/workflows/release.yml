@@ -11,4 +11,5 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
+          token: ${{ secrets.RELEASE_GITHUB_TOKEN }}
           command: manifest
