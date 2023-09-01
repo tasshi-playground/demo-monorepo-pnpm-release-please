@@ -17,16 +17,16 @@ importers:
   packages/package-a:
     dependencies:
       package-b:
-        specifier: workspace:^1.0.0
+        specifier: workspace:*
         version: link:../package-b
       package-c:
-        specifier: workspace:^1.0.0
+        specifier: workspace:*
         version: link:../package-c
 
   packages/package-b:
     dependencies:
       package-c:
-        specifier: workspace:^1.0.0
+        specifier: workspace:*
         version: link:../package-c
 
   packages/package-c: {}
