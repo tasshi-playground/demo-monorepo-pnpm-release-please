@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "package-b": "workspace:^1.0.0",
-    "package-c": "workspace:^1.0.0"
+    "package-b": "workspace:*",
+    "package-c": "workspace:*"
   }
 }
