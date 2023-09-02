@@ -19,7 +19,7 @@
       "package-name": "@kintone/package-b"
     },
     "packages/package-c": {
-      "package-name": "@kintone/package-b"
+      "package-name": "@kintone/package-c"
     }
   }
 }
