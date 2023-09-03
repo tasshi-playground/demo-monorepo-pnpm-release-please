@@ -1,5 +1,11 @@
 # Changelog
 
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * package-c bumped to 2.1.0
+
 ## [1.1.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@1.0.1...package-b@1.1.0) (2023-09-02)
 
 
