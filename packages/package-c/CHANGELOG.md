@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-c@2.1.0...package-c@3.0.0) (2023-09-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* add new features to package C
+
+### Features
+
+* add new features to package C ([817b745](https://github.com/hung-cybo/demo-monorepo-release-please/commit/817b745c2a888e59e19998dccc1926b0a16dbc9c))
+
 ## [2.1.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-c@2.0.0...package-c@2.1.0) (2023-09-03)
 
 
