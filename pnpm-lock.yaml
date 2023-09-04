@@ -26,7 +26,7 @@ importers:
   packages/package-b:
     dependencies:
       package-c:
-        specifier: workspace:^
+        specifier: workspace:^4.0.0
         version: link:../package-c
 
   packages/package-c: {}
