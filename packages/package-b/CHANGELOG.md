@@ -30,6 +30,25 @@
   * dependencies
     * package-c bumped to 4.1.0
 
+## [1.2.0](https://github.com/tasshi-playground/demo-monorepo-pnpm-release-please/compare/package-b-v1.1.5...package-b@1.2.0) (2023-09-05)
+
+
+### Features
+
+* update package A and B ([afccb41](https://github.com/tasshi-playground/demo-monorepo-pnpm-release-please/commit/afccb41640e52ff6a454dd532f871150370a4d7f))
+
+
+### Bug Fixes
+
+* package B ([ee22c26](https://github.com/tasshi-playground/demo-monorepo-pnpm-release-please/commit/ee22c267745ea96321ce686735808d8a7d638142))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * package-c bumped to 5.0.0
+
 ## [1.1.0](https://github.com/hung-cybo/demo-monorepo-release-please/compare/package-b@1.0.1...package-b@1.1.0) (2023-09-02)
 
 
